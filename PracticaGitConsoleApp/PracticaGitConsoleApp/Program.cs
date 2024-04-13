@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            while (true)
+            {
+                Console.Clear();
+                CardTest.Test(5);
+                Console.WriteLine();
+                Console.WriteLine("Pul$a una tecla para jOgar otra v3z...");
+                Console.ReadKey();
+            }
+
         }
     }
 }
