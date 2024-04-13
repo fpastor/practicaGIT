@@ -8,7 +8,8 @@ namespace PracticaGitConsoleApp
             Sort(cards);
             int score = 0;
             int aceCount = 0;
-            for (int i = 0; i < 0; i++)
+            int Count = cards.Count;
+            for (int i = 0; i < Count; i++)
             {
                 bool figure = cards[i].IsFigure();
                 if (figure)
