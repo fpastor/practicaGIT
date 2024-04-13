@@ -9,7 +9,7 @@
                 Console.Clear();
                 CardTest.Test(5);
                 Console.WriteLine();
-                Console.WriteLine("Pul$a una tecla para jOgar otra v3z...");
+                Console.WriteLine("Pulsa una tecla para jugar otra vez...");
                 Console.ReadKey();
             }
 

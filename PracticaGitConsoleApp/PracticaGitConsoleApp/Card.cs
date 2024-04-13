@@ -23,7 +23,7 @@ namespace PracticaGitConsoleApp
 
         public Card(SuitType suit, int number)
         {
-            _suit = 0;
+            _suit = suit;
             _number = number;
         }
 
